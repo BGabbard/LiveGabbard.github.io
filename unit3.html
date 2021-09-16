@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dynamic Images</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <header>
+    <h1>Dynamic Images</h1>
+    These images will change based on the size of your browser window.
+  </header>
+  <body>
+    <picture>
+      <source media="(min-width:769px)" srcset="images/kitten1.jfif" width="200" height="200">
+      <source media="(min-width:426px)" srcset="images/kitten2.jfif" width="200" height="200">
+      <source media="(min-width:321px)" srcset="images/kitten3.jfif" width="200" height="200">
+      <img src="images/kitten4.jfif" width="200" height="200">
+    </picture>
+    <br>
+    <picture>
+      <source media="(min-width:769px)" srcset="images/plant1.jfif" width="200" height="200">
+      <source media="(min-width:426px)" srcset="images/plant2.jfif" width="200" height="200">
+      <source media="(min-width:321px)" srcset="images/plant3.jfif" width="200" height="200">
+      <img src="images/plant4.jfif" width="200" height="200">
+    </picture>
+    <br>
+    <picture>
+      <source media="(min-width:769px)" srcset="images/desktop1.jfif" width="200" height="200">
+      <source media="(min-width:426px)" srcset="images/desktop2.jfif" width="200" height="200">
+      <source media="(min-width:321px)" srcset="images/desktop3.jfif" width="200" height="200">
+      <img src="images/desktop4.jfif" width="200" height="200">
+    </picture>
+  </body>
+  <main>
+
+  </main>
+  <footer>
+    <i>&copy; 2021 Brady Gabbard</i>
+  </footer>
+</html>
